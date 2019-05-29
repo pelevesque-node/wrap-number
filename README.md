@@ -8,7 +8,7 @@ Wraps a number inside a range.
 
 ## Node Repository
 
-[https://www.npmjs.com/package/@pelevesque/wrap-number](https://www.npmjs.com/package/@pelevesque/wrap-number)
+https://www.npmjs.com/package/@pelevesque/wrap-number
 
 ## Installation
 
