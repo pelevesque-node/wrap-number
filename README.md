@@ -28,6 +28,9 @@ https://www.npmjs.com/package/@pelevesque/wrap-number
 
 ```js
 const wrapNumber = require('@pelevesque/wrap-number')
+```
+
+```js
 const num = 11
 const rangeMin = -10
 const rangeMax = 10
