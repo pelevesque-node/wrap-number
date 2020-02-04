@@ -1,6 +1,6 @@
 {
   "name": "@pelevesque/wrap-number",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Wraps a number inside a range.",
   "main": "index.js",
   "engines": {
