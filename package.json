@@ -7,8 +7,10 @@
     "node": ">=6.4.0"
   },
   "scripts": {
-    "test": "standard && mocha --reporter spec",
-    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
+    "test": "standard && mocha --reporter spec && node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*",
+    "standard": "standard",
+    "unit": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -34,7 +36,7 @@
     "chai": "^4.2.0",
     "coveralls": "^3.0.9",
     "istanbul": "^0.4.5",
-    "mocha": "^6.2.2",
+    "mocha": "^7.0.1",
     "standard": "^14.3.1"
   }
 }
